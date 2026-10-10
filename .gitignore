@@ -1,0 +1,22 @@
+# ===== 白名单模式：本目录混着大量无关项目/个人文件，只上传本项目 =====
+# 忽略所有顶层内容
+/*
+
+# 恢复本项目要上传的
+!/qr_cov/
+!/QR/
+!/results/
+!/093111_1_5.0289031.pdf
+!/.gitignore
+!/README.md
+
+# data_tx（原始行情 403MB）故意不入库 —— 已被上面的 /* 忽略
+
+# ===== 通用忽略 =====
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.mlruns/
+*.log
+.DS_Store
